@@ -1,0 +1,92 @@
+[
+  {
+    "professor": {
+      "nome": "Professora Alice",
+      "idade": 35,
+      "especialidade": "Matemática"
+    },
+    "assunto": "Álgebra Linear",
+    "alunos": [
+      {
+        "nome": "João",
+        "idade": 20,
+        "curso": "Engenharia"
+      },
+      {
+        "nome": "Maria",
+        "idade": 21,
+        "curso": "Matemática"
+      },
+      {
+        "nome": "Pedro",
+        "idade": 22,
+        "curso": "Física"
+      },
+      {
+        "nome": "Ana",
+        "idade": 19,
+        "curso": "Ciência da Computação"
+      }
+    ]
+  },
+  {
+    "professor": {
+      "nome": "Professor Carlos",
+      "idade": 40,
+      "especialidade": "História"
+    },
+    "assunto": "Revolução Francesa",
+    "alunos": [
+      {
+        "nome": "Mariana",
+        "idade": 23,
+        "curso": "História"
+      },
+      {
+        "nome": "Rafael",
+        "idade": 22,
+        "curso": "Sociologia"
+      },
+      {
+        "nome": "Fernanda",
+        "idade": 21,
+        "curso": "Filosofia"
+      },
+      {
+        "nome": "Lucas",
+        "idade": 20,
+        "curso": "Direito"
+      }
+    ]
+  },
+  {
+    "professor": {
+      "nome": "Professora Laura",
+      "idade": 30,
+      "especialidade": "Biologia"
+    },
+    "assunto": "Evolução",
+    "alunos": [
+      {
+        "nome": "Carlos",
+        "idade": 19,
+        "curso": "Biologia"
+      },
+      {
+        "nome": "Juliana",
+        "idade": 20,
+        "curso": "Medicina"
+      },
+      {
+        "nome": "Gustavo",
+        "idade": 21,
+        "curso": "Veterinária"
+      },
+      {
+        "nome": "Camila",
+        "idade": 22,
+        "curso": "Biomedicina"
+      }
+    ]
+  }
+]
