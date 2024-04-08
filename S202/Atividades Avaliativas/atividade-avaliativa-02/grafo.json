@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "labels": ["Pessoa"],
+      "properties": { "nome": "João", "idade": 30 }
+    },
+    {
+      "id": "2",
+      "labels": ["Pessoa"],
+      "properties": { "nome": "Maria", "idade": 28 }
+    },
+    {
+      "id": "3",
+      "labels": ["Cachorro"],
+      "properties": { "nome": "Rex", "idade": 5 }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "1",
+      "type": "PAI_DE",
+      "startNode": "1",
+      "endNode": "2",
+      "properties": {}
+    },
+    {
+      "id": "2",
+      "type": "DONO_DE",
+      "startNode": "2",
+      "endNode": "3",
+      "properties": {}
+    }
+  ]
+}
