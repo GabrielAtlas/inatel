@@ -30,8 +30,20 @@ class Database:
             
 /*
 
+https://screeching-tsunami-209.notion.site/Buscas-e-opera-es-fde623e1ebcb4dad81541a40a362c199
+
 CREATE(u:Universitario{nome: 'Joao Gabriel', telefone: '35992233331', idade: 21});
 CREATE(c:Copo{evento: 'Facebook Dev Circle', tampa: false});
+
+MATCH(u:Universitario)
+WHERE u.idade = 21 AND u.nome = 'Joao Gabriel'
+RETURN u;
+
+MATCH(u:Universitario)
+RETURN u ORDER BY u.idade DESC;
+
+MATCH(u:Universitario)
+RETURN u LIMIT 3;
 
 MATCH(u:Universitario{nome: 'Joao Gabriel'}),(c:Copo{evento:'Facebook Dev Circle'})
 CREATE(u)-[:POSSUI{ano:2019}]->(c);
