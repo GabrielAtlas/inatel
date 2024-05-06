@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nome": "Item Encantado",
+    "preco": 20.0,
+    "peso": 0,
+    "volume": 0,
+    "magic": true,
+    "inventory": false,
+    "arma": false,
+    "effect": "EXTRA_DAMAGE_1"
+  },
+  {
+    "id": 2,
+    "nome": "Item Pesado",
+    "preco": 20.0,
+    "peso": 50.0,
+    "volume": 10.0,
+    "magic": false,
+    "inventory": true,
+    "arma": false
+  },
+  {
+    "id": 3,
+    "nome": "Item Arma",
+    "preco": 20.0,
+    "peso": 0.0,
+    "volume": 0.0,
+    "magic": false,
+    "inventory": false,
+    "arma": true,
+    "arma_attributes": {
+      "classe": "Espada",
+      "dano": 10.0
+    }
+  }
+]

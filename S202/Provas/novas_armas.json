@@ -1,0 +1,44 @@
+[
+  {
+    "id": 3,
+    "nome": "Item Arma",
+    "preco": 20.0,
+    "peso": 0.0,
+    "volume": 0.0,
+    "magic": false,
+    "inventory": false,
+    "arma": true,
+    "arma_attributes": {
+      "classe": "Espada",
+      "dano": 10.0
+    }
+  },
+  {
+    "id": 3,
+    "nome": "Item Arma",
+    "preco": 3.0,
+    "peso": 0.0,
+    "volume": 0.0,
+    "magic": false,
+    "inventory": false,
+    "arma": true,
+    "arma_attributes": {
+      "classe": "Espada",
+      "dano": 10.0
+    }
+  },
+  {
+    "id": 3,
+    "nome": "Item Arma",
+    "preco": 5.0,
+    "peso": 0.0,
+    "volume": 0.0,
+    "magic": false,
+    "inventory": false,
+    "arma": true,
+    "arma_attributes": {
+      "classe": "Espada",
+      "dano": 10.0
+    }
+  }
+]
