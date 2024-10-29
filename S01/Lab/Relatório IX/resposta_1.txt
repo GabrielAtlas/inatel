@@ -1,0 +1,2 @@
+?- resultado(joao, X).
+X = 8.

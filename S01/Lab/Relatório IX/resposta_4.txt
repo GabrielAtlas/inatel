@@ -1,0 +1,3 @@
+?- aprovado(X).
+X = maria ;
+X = ana.

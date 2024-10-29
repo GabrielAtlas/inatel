@@ -1,0 +1,4 @@
+?- falta(X, Y), Y > 0.
+X = joao, Y = 2 ;
+X = pedro, Y = 5 ;
+X = jose, Y = 1.
