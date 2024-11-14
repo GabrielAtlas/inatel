@@ -1,0 +1,1 @@
+O Sinal primeiramente entra por uma entrada analógica do Arduino e após isso passa por um filtro de passa baixa, para remoção de ruídos e etc, depois vai para a seção de Amostragem e armazenamento e após isso vai para a seção do Quantizador e finalmente passando pelo Codificador (Circuito Lógico) e gerando assim o código digital com sinal convertido
