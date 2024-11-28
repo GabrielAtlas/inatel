@@ -1,0 +1,15 @@
+(defun process-list (lst)
+  (mapcar (lambda (x)
+            (if (>= x 4)
+                (* x 2)
+                (/ x 2)))
+          lst))
+
+(defun main ()
+  (let* ((list1 '(1 2 3))
+         (list2 '(4 5 6))
+         (processed1 (process-list list1))
+         (processed2 (process-list list2)))
+    (append processed1 processed2)))
+
+(print (main))
